@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>JS Injector</title>
+  <link rel="stylesheet" href="popup.css">
+  <script type="module" src="src/popup/main.js"></script>
+</head>
+<body>
+  <h1>JS Injector</h1>
+  <button id="injectBtn">Inject JavaScript</button>
+  <div class="controls-container">
+    <label class="switch">
+      <input type="checkbox" id="hookToggle">
+      <span class="slider round"></span>
+    </label>
+    <label for="hookToggle">拦截路由跳转</label>
+  </div>
+  <div class="keywords-container">
+    <input type="text" id="hookKeywords" placeholder="e.g., login,logout">
+  </div>
+  <div id="result-container">
+    <div id="logs-container"></div>
+    <div id="routes-table-container"></div>
+  </div>
+</body>
+</html>
