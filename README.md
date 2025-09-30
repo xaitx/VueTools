@@ -1,6 +1,6 @@
 # VueTools - Vue.js DevTools Chrome 扩展
 
-这是一个 Chrome 浏览器扩展，旨在帮助开发者调试和检查 Vue.js 应用程序。
+这是一个浏览器扩展，方便在遇到vue时候可以快速的绕过路由守卫和查找相关路由，并提供快捷访问。
 
 ## 功能
 
@@ -32,6 +32,9 @@ src/
 2.  打开 Chrome 浏览器，进入 `chrome://extensions/`。
 3.  启用“开发者模式”。
 4.  点击“加载已解压的扩展程序”，然后选择项目根目录。
+5.  在目标网站打开插件的面板，点击注入js即可。
+<img width="419" height="902" alt="image" src="https://github.com/user-attachments/assets/bc85d319-88f4-4f0a-818f-a71e36d1a8fb" />
+
 
 ## 参考项目
 
